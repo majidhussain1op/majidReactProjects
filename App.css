@@ -1,10 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 h1{
-  font-family: Arial Gill Sans ;
+  font-weight: 700;
+  font-size: 40px;
+  font-style: unset;
+  text-align: center;
+  font-family: Gill Sans;
+  margin: 10px;
+  margin-bottom: 20px;
 }
 
-.para{
-  font-size: large;
-  font-weight: 900px;
-  font-style: initial;
-  font-family: Times New Roman;
+input{
+  width: 100%;
+}
+
+.todo-container{
+  text-align: left;
+}
+
+
+.row{
+  margin: 10px;
+}
+
+.kg-button{
+ min-width: 90px;
 }
